@@ -229,4 +229,4 @@ This work is licensed under CC BY-NC-ND 4.0.
 <br>
 ## Contact
 - Nidhish Balasubramanya - [nidhishbalasubramanya@gmail.com](nidhishbalasubramanya@gmail.com)
-For queries or feedback, feel free to open an issue or contact via the email.
+- For queries or feedback, feel free to open an issue or contact via the email.
