@@ -1,7 +1,7 @@
 
 # AI-Powered Pharmacovigilance via Literature Monitoring
 <br>
-This repository contains the full implementation of an **AI-powered pharmacovigilance system** that automates the extraction of **Adverse Event Reports (AERs)** and generates detailed **narrative case reports** from unstructured pharmaceutical literature.
+This repository contains the full implementation of an AI-powered pharmacovigilance system that automates the extraction of Adverse Event Reports (AERs) and generates detailed narrative case reports from unstructured pharmaceutical literature.
 
 The system combines traditional NLP, biomedical entity extraction, LLM-based summarization, and full-stack deployment components, providing a complete solution for regulatory safety reporting.
 <br>
