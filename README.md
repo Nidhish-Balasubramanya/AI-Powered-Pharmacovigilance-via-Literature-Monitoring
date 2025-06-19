@@ -228,5 +228,5 @@ Accessible via: `https://pharmacovigilence.com/`
 This work is licensed under CC BY-NC-ND 4.0.
 <br>
 ## Contact
-
-For queries or feedback, feel free to open an issue or contact via the official project portal at [https://pharmacovigilence.com](https://pharmacovigilence.com)
+- Nidhish Balasubramanya - [nidhishbalasubramanya@gmail.com](nidhishbalasubramanya@gmail.com)
+For queries or feedback, feel free to open an issue or contact via the email.
