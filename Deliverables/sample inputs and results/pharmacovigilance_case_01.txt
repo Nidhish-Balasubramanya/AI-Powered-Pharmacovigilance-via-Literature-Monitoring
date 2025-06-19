@@ -1,0 +1,20 @@
+Patient ID: 483920
+Name: Johnathan D. Smith
+Age: 72
+Sex: Male
+Weight: 78 kg
+Medical History: Type 2 Diabetes, Hypertension, Stage 1 Chronic Kidney Disease.
+Current Medication: Metformin 500mg BID, Lisinopril 10mg QD, Atorvastatin 20mg QHS.
+
+Adverse Event Summary:
+The patient was prescribed Levofloxacin 500mg once daily for a suspected UTI. On Day 4 of therapy,
+he reported acute confusion, muscle weakness, and tremors. On examination, mild hypotension and 
+prolonged QT interval were observed. The medication was discontinued immediately.
+
+Clinical Outcome:
+Symptoms resolved within 72 hours post discontinuation. ECG normalized within 5 days.
+The case has been reported to the hospital pharmacovigilance team.
+
+Suspected Drug: Levofloxacin
+Suspected Reaction: CNS symptoms (confusion, tremors), cardiac (QT prolongation)
+Reporter: Dr. Alicia Green, Internal Medicine Specialist

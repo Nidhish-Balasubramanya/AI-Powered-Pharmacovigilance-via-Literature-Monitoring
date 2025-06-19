@@ -1,0 +1,37 @@
+services:
+  frontend:
+    build:
+      context: ./streamlit
+    container_name: frontend
+    environment:
+      - API_URL=http://backend:8000
+    expose:
+      - "8501"
+    depends_on:
+      - backend
+
+  backend:
+    build:
+      context: .
+      dockerfile: rest_api/Dockerfile
+    container_name: backend
+    environment:
+      - AWS_ACCESS_KEY_ID=<your_access_key>
+      - AWS_SECRET_ACCESS_KEY=<your_secret_access_key>
+      - AWS_DEFAULT_REGION=us-east-1
+      - S3_BUCKET=<your_bucket_name>
+    expose:
+      - "8000"
+
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/certs:/etc/nginx/certs:ro
+    depends_on:
+      - frontend
+      - backend

@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+pydantic
+pdfplumber
+pytesseract
+Pillow
+opencv-python-headless
+numpy
+scispacy
+spacy
+transformers
+boto3
+pdf2image
+torch==2.2.2
+python-multipart
+streamlit
+requests

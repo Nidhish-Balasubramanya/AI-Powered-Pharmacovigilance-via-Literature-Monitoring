@@ -1,0 +1,146 @@
+{
+  "data": {
+    "detail": {
+      "structured": {
+        "narrative__v": "Patient ID: 483920 Name: Johnathan D. Smith Age: 72 Sex: Male Weight: 78 kg Medical History: Type 2 Diabetes, Hypertension, Stage 1 Chronic Kidney Disease. Current Medication: Metformin 500mg BID, Lisinopril 10mg QD, Atorvastatin 20mg QHS. Adverse Event Summary: The patient was prescribed Levofloxacin 500mg once daily for a suspected UTI. On Day 4 of therapy, he reported acute confusion, muscle weakness, and tremors. On examination, mild hypotension and prolonged QT interval were observed. The medication was discontinued immediately. Clinical Outcome: Symptoms resolved within 72 hours post discontinuation. ECG normalized within 5 days. The case has been reported to the hospital pharmacovigilance team. Suspected Drug: Levofloxacin Suspected Reaction: CNS symptoms (confusion, tremors), cardiac (QT prolongation) Reporter: Dr. Alicia Green, Internal Medicine Specialist",
+        "case_classification__v": "Spontaneous",
+        "serious__v": false,
+        "seriousness_criteria__v": [],
+        "report_type__v": "Initial",
+        "receive_datetime__v": "",
+        "receipt_method__v": "Email",
+        "transmission_type__v": "Electronic"
+      },
+      "patient": {
+        "structured": {
+          "age_value__v": "72",
+          "age_unit__v": "Years",
+          "gender_value__v": "Male",
+          "weight__v": "78",
+          "weight_unit__v": "kg",
+          "patient_identifier__v": "67f75b2c-61dc-41a8-a1a1-48dd43a85191"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "",
+            "dose_text__v": "",
+            "firstadmin_idate__v": "",
+            "indication_text__v": "UTI",
+            "dose_unit__v": "mg",
+            "dose_number__v": 1
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "symptoms",
+            "country__v": "IN",
+            "onset_idate__v": "",
+            "serious__v": false,
+            "outcome__v": "Unknown"
+          },
+          {
+            "event_reported__v": "confusion",
+            "country__v": "IN",
+            "onset_idate__v": "",
+            "serious__v": false,
+            "outcome__v": "Unknown"
+          },
+          {
+            "event_reported__v": "tremor",
+            "country__v": "IN",
+            "onset_idate__v": "",
+            "serious__v": false,
+            "outcome__v": "Unknown"
+          }
+        ]
+      },
+      "case_test_result__v": {
+        "structured": [
+          {
+            "test_name__v": "ecg",
+            "test_result__v": "Positive",
+            "result_unit__v": "",
+            "qualifier__v": "",
+            "result_date__v": ""
+          },
+          {
+            "test_name__v": "normal",
+            "test_result__v": "Positive",
+            "result_unit__v": "",
+            "qualifier__v": "",
+            "result_date__v": ""
+          },
+          {
+            "test_name__v": "weight",
+            "test_result__v": "Positive",
+            "result_unit__v": "",
+            "qualifier__v": "",
+            "result_date__v": ""
+          },
+          {
+            "test_name__v": "prolonged",
+            "test_result__v": "Positive",
+            "result_unit__v": "",
+            "qualifier__v": "",
+            "result_date__v": ""
+          }
+        ]
+      },
+      "case_contact__v": {
+        "structured": [
+          {
+            "qualification__v": "",
+            "object_type__v": "reporter__v",
+            "firstname_value__v": "",
+            "middlename_value__v": "",
+            "lastname_value__v": ""
+          }
+        ],
+        "metadata": {}
+      },
+      "parental_case__v": {
+        "structured": [
+          {
+            "case_medical_history__v": [],
+            "case_drug_history__v": [],
+            "age_value__v": "72",
+            "age_unit__v": "years",
+            "dob_idate__v": "",
+            "gender_value__v": "Male",
+            "height_value__v": "",
+            "height_unit__v": "cm",
+            "patient_id_value__v": "AA",
+            "last_menstrual_normalized__v": "",
+            "weight_value__v": "78",
+            "weight_unit__v": "kg",
+            "race__v": "",
+            "ethnicity__v": "",
+            "medical_history_text__v": "Type 2 Diabetes, Hypertension, Stage 1 Chronic Kidney Disease"
+          }
+        ]
+      },
+      "transmission__v": {
+        "structured": [
+          {
+            "destination__v": "",
+            "organization__v": "",
+            "transmission_profile__v": "",
+            "first_sender__v": "",
+            "destination_transmission_id__v": "",
+            "origin__v": "",
+            "origin_transmission_id__v": "",
+            "reason_text_long_text__v": "",
+            "sender_comments__v": "",
+            "recipient_user__v": "",
+            "sender_user__v": ""
+          }
+        ],
+        "metadata": {}
+      }
+    }
+  }
+}
