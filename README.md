@@ -13,40 +13,58 @@ The system combines traditional NLP, biomedical entity extraction, LLM-based sum
 - **Narrative Generation:** Uses Claude Sonnet (via AWS Bedrock) to generate fluent case narratives from structured AER data.
 - **REST API Backend:** Exposes core functionalities through a FastAPI server with endpoints for file upload, JSON output, and feedback submission.
 - **Streamlit Frontend:** Interactive interface for uploading literature and viewing extracted reports in real time.
-- **Containerized Deployment:** Deployed with Docker, NGINX (HTTPS), and AWS EC2/ECS.
+- **Containerized Deployment:** Deployed with Docker, NGINX (HTTPS), and AWS EC2.
 
 ## Folder Structure
 
 ```
-├── 1_Literature_Ingestion/
-│   └── text_extraction.py
-├── 2_AER_Entity_Extraction/
+pharmacovigilance/
+├── aer_entity_extraction/
+│   ├── __pycache__/
+│   ├── __init__.py
 │   ├── ner_pipeline.py
 │   ├── rule_extractors.py
 │   └── testrun.py
-├── 3_Case_Data_Construction/
+│
+├── case_data_construction/
+│   ├── __pycache__/
+│   ├── __init__.py
 │   ├── json_generator.py
-│   └── vault_case_1.json
-├── 4_Narrative_Generation/
+│   └── testrun2.py
+│
+├── literature_ingestion/
+│   ├── __pycache__/
+│   ├── __init__.py
+│   └── text_extraction.py
+│
+├── narrative_generation/
+│   ├── __pycache__/
+│   ├── __init__.py
 │   ├── narrative_generator.py
-│   ├── prompt_builder.py
-│   └── vault_case_1_with_narrative.json
-├── Deliverables/
-│   ├── aer_case_schema.json
-│   └── sample inputs and results/
-├── rest_api/
-│   ├── main.py
-│   ├── requirements.txt
-│   └── Dockerfile
-├── streamlit/
-│   ├── app.py
-│   ├── requirements.txt
-│   └── Dockerfile
+│   └── prompt_builder.py
+│
 ├── nginx/
-│   ├── nginx.conf
-│   └── certs/
+│   ├── certs/
+│   ├── Dockerfile
+│   └── nginx.conf
+│
+├── rest_api/
+│   ├── __pycache__/
+│   ├── __init__.py
+│   ├── .dockerignore
+│   ├── Dockerfile
+│   ├── main.py
+│   └── requirements.txt
+│
+├── streamlit/
+│   ├── .dockerignore
+│   ├── app.py
+│   ├── Dockerfile
+│   └── requirements.txt
+│
 ├── docker-compose.yml
 └── requirements.txt
+
 ```
 
 ## Setup & Deployment
