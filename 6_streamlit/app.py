@@ -18,8 +18,8 @@ module = st.sidebar.selectbox(
         "Home",
         "📤 Case Upload & Extraction",
         "📝 Narrative by Case ID",
-        "💬 Feedback",
-        "📂 Retrieve Case JSON"
+        "📂 Retrieve Case JSON",
+        "💬 Feedback"
     ]
 )
 
