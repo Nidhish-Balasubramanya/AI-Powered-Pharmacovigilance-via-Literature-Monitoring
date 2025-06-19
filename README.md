@@ -10,7 +10,7 @@ The system combines traditional NLP, biomedical entity extraction, LLM-based sum
 - **Literature Ingestion:** Handles pharmaceutical documents (PDF/HTML) and extracts clean text using OCR and parsing.
 - **AER Entity Extraction:** Extracts structured data like drug name, dosage, reaction, etc., using BioBERT/SciSpacy + rule-based pipelines.
 - **Vault-compliant JSON Generation:** Formats data into standard regulatory JSON schema for downstream use.
-- **Narrative Generation:** Uses Claude Sonnet (via AWS Bedrock) to generate fluent case narratives from structured AER data.
+- **Narrative Generation:** Uses Claude (via AWS Bedrock) to generate fluent case narratives from structured AER data.
 - **REST API Backend:** Exposes core functionalities through a FastAPI server with endpoints for file upload, JSON output, and feedback submission.
 - **Streamlit Frontend:** Interactive interface for uploading literature and viewing extracted reports in real time.
 - **Containerized Deployment:** Deployed with Docker, NGINX (HTTPS), and AWS EC2.
