@@ -1,10 +1,10 @@
 
 # AI-Powered Pharmacovigilance via Literature Monitoring
-
+<br>
 This repository contains the full implementation of an **AI-powered pharmacovigilance system** that automates the extraction of **Adverse Event Reports (AERs)** and generates detailed **narrative case reports** from unstructured pharmaceutical literature.
 
 The system combines traditional NLP, biomedical entity extraction, LLM-based summarization, and full-stack deployment components, providing a complete solution for regulatory safety reporting.
-
+<br>
 ## Features
 
 - **Literature Ingestion:** Handles pharmaceutical documents (PDF/HTML) and extracts clean text using OCR and parsing.
@@ -14,6 +14,7 @@ The system combines traditional NLP, biomedical entity extraction, LLM-based sum
 - **REST API Backend:** Exposes core functionalities through a FastAPI server with endpoints for file upload, JSON output, and feedback submission.
 - **Streamlit Frontend:** Interactive interface for uploading literature and viewing extracted reports in real time.
 - **Containerized Deployment:** Deployed with Docker, NGINX (HTTPS), and AWS EC2.
+<br>
 
 ## Folder Structure
 
@@ -97,14 +98,113 @@ This starts:
 - Streamlit frontend on `http://localhost:8501`
 - HTTPS via NGINX reverse proxy (certificates must be configured)
 
+<br>
+
+
 ## REST API Endpoints (FastAPI)
 
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| POST   | `/upload/` | Uploads pharmaceutical document |
-| GET    | `/get_json/{case_id}` | Retrieves extracted Vault JSON |
-| POST   | `/generate_narrative/` | Triggers Claude-based narrative generation |
-| POST   | `/feedback/` | Accepts user feedback on generated output |
+### 1 `POST /upload`
+
+**Description:** Upload a pharmaceutical document (`.pdf`, `.txt`, or image) to extract AER entities and construct a Vault-compatible JSON.
+
+* **Request:** `multipart/form-data`
+
+  * `file`: The literature document to upload
+
+* **Response:**
+
+```json
+{
+  "case_id": "a1b2c3d4...",
+  "message": "Case data extracted successfully.",
+  "case_json": { }
+}
+```
+
+* **Errors:** `400` (Unsupported file type), `500` (Processing failed)
+
+
+
+### 2 `GET /case/{case_id}`
+
+**Description:** Fetch the JSON-structured AER case generated from the uploaded literature.
+
+* **Path Param:** `case_id` – Unique ID of the case
+* **Response:** JSON content of the AER case
+* **Errors:** `404` if not found
+
+
+
+### 3 `POST /narrative`
+
+**Description:** Generate a narrative from a previously extracted case.
+
+* **Query Param:** `case_id`
+
+* **Response:**
+
+```json
+{
+  "case_id": "a1b2c3d4...",
+  "narrative": "Patient experienced..."
+}
+```
+
+* **Errors:** `404` if case not found
+
+
+
+### 4 `GET /download/case/{case_id}`
+
+**Description:** Download the structured AER JSON file.
+
+* **Path Param:** `case_id`
+* **Response:** Attachment (`.json`) as `application/json`
+* **Errors:** `404` if case not found
+
+
+
+### 5 `GET /download/narrative/{case_id}`
+
+**Description:** Download the generated narrative as a `.txt` file.
+
+* **Path Param:** `case_id`
+* **Response:** Attachment (`.txt`) as `text/plain`
+* **Errors:** `404` if narrative not found
+
+
+
+### 6 `POST /validate`
+
+**Description:** Submit validation feedback for a specific case.
+
+* **Form Params:**
+
+  * `case_id`: ID of the case being reviewed
+  * `feedback`: Free-text feedback message
+
+* **Response:**
+
+```json
+{
+  "message": "Feedback received. Thank you!"
+}
+```
+
+
+
+### 7 `GET /health`
+
+**Description:** Simple health check for uptime and monitoring.
+
+* **Response:**
+
+```json
+{
+  "status": "ok"
+}
+```
+<br>
 
 ## Frontend (Streamlit)
 
@@ -115,7 +215,7 @@ The Streamlit UI allows:
 - Displaying full case report
 
 Accessible via: `https://pharmacovigilence.com/`
-
+<br>
 ## Tech Stack
 
 - Python 3.10, FastAPI, Streamlit
@@ -123,11 +223,10 @@ Accessible via: `https://pharmacovigilence.com/`
 - Docker, NGINX, AWS EC2
 - Vault JSON Schema, OCR, Regex/Ruled NER
 
-
 ## License
 
 This work is licensed under CC BY-NC-ND 4.0.
-
+<br>
 ## Contact
 
 For queries or feedback, feel free to open an issue or contact via the official project portal at [https://pharmacovigilence.com](https://pharmacovigilence.com)
