@@ -72,7 +72,7 @@ pharmacovigilance/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/pharmacovigilance-app.git
+git clone https://github.com/Nidhish-Balasubramanya/AI-Powered-Pharmacovigilance-via-Literature-Monitoring
 cd pharmacovigilance-app
 ```
 
@@ -123,16 +123,10 @@ Accessible via: `https://pharmacovigilence.com/`
 - Docker, NGINX, AWS EC2
 - Vault JSON Schema, OCR, Regex/Ruled NER
 
-## Deliverables
-
-- `aer_case_schema.json` – Vault-compliant data format
-- `vault_case_1.json` – Example of structured extracted data
-- `vault_case_1_with_narrative.json` – Same case with generated narrative
-- Sample inputs/outputs in `/Deliverables/`
 
 ## License
 
-This project is proprietary and developed under internship guidelines. Contact the author for reuse or distribution.
+This work is licensed under CC BY-NC-ND 4.0.
 
 ## Contact
 
