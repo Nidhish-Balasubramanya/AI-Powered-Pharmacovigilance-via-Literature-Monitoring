@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "source": "synthetic_generator",
+    "version": "1.0"
+  },
+  "data": {
+    "detail": {
+      "patient": {
+        "structured": {
+          "age_value__v": 46,
+          "weight_value__v": 64.4,
+          "gender_value__v": "Female"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Amoxicillin",
+            "dose__v": "1 tablet(s) daily",
+            "indication__v": "million"
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "Fever",
+            "outcome__v": "Not Recovered",
+            "serious__v": "Yes",
+            "country__v": "AU",
+            "onset_idate__v": "2023-06-06"
+          },
+          {
+            "event_reported__v": "Anxiety",
+            "outcome__v": "Unknown",
+            "serious__v": "No",
+            "country__v": "IN",
+            "onset_idate__v": "1991-12-26"
+          },
+          {
+            "event_reported__v": "Rash",
+            "outcome__v": "Not Recovered",
+            "serious__v": "No",
+            "country__v": "CA",
+            "onset_idate__v": "2009-11-06"
+          }
+        ]
+      },
+      "structured": {
+        "narrative__v": "Christopher Ramirez was prescribed Amoxicillin for learn and later developed fever along with other symptoms.",
+        "report_type__v": "Literature",
+        "seriousness_criteria__v": "Disability",
+        "receipt_method__v": "Fax",
+        "transmission_type__v": "Initial"
+      }
+    }
+  }
+}

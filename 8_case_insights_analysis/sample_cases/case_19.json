@@ -1,0 +1,77 @@
+{
+  "data": {
+    "detail": {
+      "structured": {
+        "narrative__v": "Patient is a 18-year-old other who was prescribed Metformin for treatment. Reported symptoms include headache, confusion, blurred vision. Outcome was noted as unknown.",
+        "case_classification__v": "Spontaneous",
+        "serious__v": false,
+        "seriousness_criteria__v": [],
+        "report_type__v": "Initial",
+        "receive_datetime__v": "",
+        "receipt_method__v": "Email",
+        "transmission_type__v": "Electronic"
+      },
+      "patient": {
+        "structured": {
+          "age_value__v": "18",
+          "age_unit__v": "Years",
+          "gender_value__v": "Other",
+          "weight__v": "86",
+          "weight_unit__v": "kg",
+          "patient_identifier__v": "patient_019"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Metformin",
+            "dose_text__v": "",
+            "firstadmin_idate__v": "",
+            "indication_text__v": "General",
+            "dose_unit__v": "mg",
+            "dose_number__v": 1
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "headache",
+            "country__v": "IN",
+            "onset_idate__v": "",
+            "serious__v": false,
+            "outcome__v": "Unknown"
+          },
+          {
+            "event_reported__v": "confusion",
+            "country__v": "IN",
+            "onset_idate__v": "",
+            "serious__v": false,
+            "outcome__v": "Unknown"
+          },
+          {
+            "event_reported__v": "blurred vision",
+            "country__v": "IN",
+            "onset_idate__v": "",
+            "serious__v": false,
+            "outcome__v": "Unknown"
+          }
+        ]
+      },
+      "case_test_result__v": {
+        "structured": []
+      },
+      "case_contact__v": {
+        "structured": [],
+        "metadata": {}
+      },
+      "parental_case__v": {
+        "structured": []
+      },
+      "transmission__v": {
+        "structured": [],
+        "metadata": {}
+      }
+    }
+  }
+}

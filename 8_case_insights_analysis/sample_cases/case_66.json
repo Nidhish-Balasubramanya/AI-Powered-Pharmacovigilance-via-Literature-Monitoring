@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "source": "synthetic_generator",
+    "version": "1.0"
+  },
+  "data": {
+    "detail": {
+      "patient": {
+        "structured": {
+          "age_value__v": 38,
+          "weight_value__v": 71.9,
+          "gender_value__v": "Male"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Paracetamol",
+            "dose__v": "2 tablet(s) daily",
+            "indication__v": "oil"
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "Headache",
+            "outcome__v": "Unknown",
+            "serious__v": "Yes",
+            "country__v": "IN",
+            "onset_idate__v": "1976-11-18"
+          },
+          {
+            "event_reported__v": "Fever",
+            "outcome__v": "Unknown",
+            "serious__v": "No",
+            "country__v": "AU",
+            "onset_idate__v": "2012-01-02"
+          },
+          {
+            "event_reported__v": "Dizziness",
+            "outcome__v": "Unknown",
+            "serious__v": "Yes",
+            "country__v": "AU",
+            "onset_idate__v": "2010-04-24"
+          }
+        ]
+      },
+      "structured": {
+        "narrative__v": "Erika Davis was prescribed Paracetamol for wrong and later developed headache along with other symptoms.",
+        "report_type__v": "Study",
+        "seriousness_criteria__v": "Death",
+        "receipt_method__v": "Fax",
+        "transmission_type__v": "Initial"
+      }
+    }
+  }
+}

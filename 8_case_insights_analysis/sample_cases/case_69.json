@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "source": "synthetic_generator",
+    "version": "1.0"
+  },
+  "data": {
+    "detail": {
+      "patient": {
+        "structured": {
+          "age_value__v": 73,
+          "weight_value__v": 43.4,
+          "gender_value__v": "Female"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Cetirizine",
+            "dose__v": "1 tablet(s) daily",
+            "indication__v": "choose"
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "Rash",
+            "outcome__v": "Fatal",
+            "serious__v": "Yes",
+            "country__v": "DE",
+            "onset_idate__v": "1997-12-06"
+          },
+          {
+            "event_reported__v": "Dizziness",
+            "outcome__v": "Not Recovered",
+            "serious__v": "No",
+            "country__v": "AU",
+            "onset_idate__v": "1987-02-27"
+          }
+        ]
+      },
+      "structured": {
+        "narrative__v": "Miss Amanda Byrd DDS was prescribed Cetirizine for production and later developed rash along with other symptoms.",
+        "report_type__v": "Literature",
+        "seriousness_criteria__v": "Death",
+        "receipt_method__v": "Web",
+        "transmission_type__v": "Initial"
+      }
+    }
+  }
+}

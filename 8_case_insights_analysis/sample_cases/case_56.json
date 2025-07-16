@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "source": "synthetic_generator",
+    "version": "1.0"
+  },
+  "data": {
+    "detail": {
+      "patient": {
+        "structured": {
+          "age_value__v": 9,
+          "weight_value__v": 89.3,
+          "gender_value__v": "Female"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Lisinopril",
+            "dose__v": "1 tablet(s) daily",
+            "indication__v": "story"
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "Fever",
+            "outcome__v": "Not Recovered",
+            "serious__v": "No",
+            "country__v": "DE",
+            "onset_idate__v": "1990-11-27"
+          }
+        ]
+      },
+      "structured": {
+        "narrative__v": "Tanner Bernard was prescribed Lisinopril for lead and later developed fever along with other symptoms.",
+        "report_type__v": "Other",
+        "seriousness_criteria__v": "Death",
+        "receipt_method__v": "Fax",
+        "transmission_type__v": "Initial"
+      }
+    }
+  }
+}

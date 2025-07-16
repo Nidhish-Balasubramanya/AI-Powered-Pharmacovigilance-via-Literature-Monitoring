@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "source": "synthetic_generator",
+    "version": "1.0"
+  },
+  "data": {
+    "detail": {
+      "patient": {
+        "structured": {
+          "age_value__v": 44,
+          "weight_value__v": 58.6,
+          "gender_value__v": "Other"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Metformin",
+            "dose__v": "2 tablet(s) daily",
+            "indication__v": "though"
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "Anxiety",
+            "outcome__v": "Recovered",
+            "serious__v": "Yes",
+            "country__v": "AU",
+            "onset_idate__v": "2009-01-17"
+          },
+          {
+            "event_reported__v": "Dizziness",
+            "outcome__v": "Fatal",
+            "serious__v": "No",
+            "country__v": "DE",
+            "onset_idate__v": "1998-11-30"
+          },
+          {
+            "event_reported__v": "Fever",
+            "outcome__v": "Recovered",
+            "serious__v": "No",
+            "country__v": "FR",
+            "onset_idate__v": "1998-11-20"
+          }
+        ]
+      },
+      "structured": {
+        "narrative__v": "Jessica Cooper was prescribed Metformin for serve and later developed anxiety along with other symptoms.",
+        "report_type__v": "Literature",
+        "seriousness_criteria__v": "Death",
+        "receipt_method__v": "Web",
+        "transmission_type__v": "Initial"
+      }
+    }
+  }
+}

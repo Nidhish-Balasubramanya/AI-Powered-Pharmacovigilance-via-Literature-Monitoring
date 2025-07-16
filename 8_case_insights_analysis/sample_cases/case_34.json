@@ -1,0 +1,63 @@
+{
+  "data": {
+    "detail": {
+      "structured": {
+        "narrative__v": "Patient is a 69-year-old male who was prescribed Lisinopril for treatment. Reported symptoms include dry mouth. Outcome was noted as recovered.",
+        "case_classification__v": "Spontaneous",
+        "serious__v": false,
+        "seriousness_criteria__v": [],
+        "report_type__v": "Initial",
+        "receive_datetime__v": "",
+        "receipt_method__v": "Email",
+        "transmission_type__v": "Electronic"
+      },
+      "patient": {
+        "structured": {
+          "age_value__v": "69",
+          "age_unit__v": "Years",
+          "gender_value__v": "Male",
+          "weight__v": "98",
+          "weight_unit__v": "kg",
+          "patient_identifier__v": "patient_034"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Lisinopril",
+            "dose_text__v": "",
+            "firstadmin_idate__v": "",
+            "indication_text__v": "General",
+            "dose_unit__v": "mg",
+            "dose_number__v": 1
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "dry mouth",
+            "country__v": "IN",
+            "onset_idate__v": "",
+            "serious__v": false,
+            "outcome__v": "Recovered"
+          }
+        ]
+      },
+      "case_test_result__v": {
+        "structured": []
+      },
+      "case_contact__v": {
+        "structured": [],
+        "metadata": {}
+      },
+      "parental_case__v": {
+        "structured": []
+      },
+      "transmission__v": {
+        "structured": [],
+        "metadata": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "source": "synthetic_generator",
+    "version": "1.0"
+  },
+  "data": {
+    "detail": {
+      "patient": {
+        "structured": {
+          "age_value__v": 26,
+          "weight_value__v": 84.4,
+          "gender_value__v": "Other"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Atorvastatin",
+            "dose__v": "1 tablet(s) daily",
+            "indication__v": "nor"
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "Fatigue",
+            "outcome__v": "Recovered",
+            "serious__v": "Yes",
+            "country__v": "AU",
+            "onset_idate__v": "2000-01-01"
+          },
+          {
+            "event_reported__v": "Nausea",
+            "outcome__v": "Unknown",
+            "serious__v": "No",
+            "country__v": "US",
+            "onset_idate__v": "2002-10-05"
+          },
+          {
+            "event_reported__v": "Anxiety",
+            "outcome__v": "Fatal",
+            "serious__v": "Yes",
+            "country__v": "CA",
+            "onset_idate__v": "1970-10-28"
+          }
+        ]
+      },
+      "structured": {
+        "narrative__v": "Jay Young was prescribed Atorvastatin for east and later developed fatigue along with other symptoms.",
+        "report_type__v": "Literature",
+        "seriousness_criteria__v": "Hospitalization",
+        "receipt_method__v": "Web",
+        "transmission_type__v": "Initial"
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "source": "synthetic_generator",
+    "version": "1.0"
+  },
+  "data": {
+    "detail": {
+      "patient": {
+        "structured": {
+          "age_value__v": 1,
+          "weight_value__v": 61.2,
+          "gender_value__v": "Male"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Lisinopril",
+            "dose__v": "2 tablet(s) daily",
+            "indication__v": "quickly"
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "Shortness of Breath",
+            "outcome__v": "Not Recovered",
+            "serious__v": "No",
+            "country__v": "GB",
+            "onset_idate__v": "2012-11-16"
+          },
+          {
+            "event_reported__v": "Fever",
+            "outcome__v": "Unknown",
+            "serious__v": "No",
+            "country__v": "AU",
+            "onset_idate__v": "1983-09-18"
+          },
+          {
+            "event_reported__v": "Rash",
+            "outcome__v": "Fatal",
+            "serious__v": "No",
+            "country__v": "FR",
+            "onset_idate__v": "1989-10-12"
+          }
+        ]
+      },
+      "structured": {
+        "narrative__v": "Robin Hernandez was prescribed Lisinopril for outside and later developed shortness of breath along with other symptoms.",
+        "report_type__v": "Other",
+        "seriousness_criteria__v": "Death",
+        "receipt_method__v": "Fax",
+        "transmission_type__v": "Initial"
+      }
+    }
+  }
+}

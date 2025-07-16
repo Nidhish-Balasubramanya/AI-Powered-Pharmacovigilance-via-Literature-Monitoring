@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "source": "synthetic_generator",
+    "version": "1.0"
+  },
+  "data": {
+    "detail": {
+      "patient": {
+        "structured": {
+          "age_value__v": 18,
+          "weight_value__v": 76.9,
+          "gender_value__v": "Other"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Lisinopril",
+            "dose__v": "2 tablet(s) daily",
+            "indication__v": "office"
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "Rash",
+            "outcome__v": "Recovered",
+            "serious__v": "Yes",
+            "country__v": "DE",
+            "onset_idate__v": "1979-03-08"
+          },
+          {
+            "event_reported__v": "Fever",
+            "outcome__v": "Not Recovered",
+            "serious__v": "No",
+            "country__v": "GB",
+            "onset_idate__v": "2017-01-30"
+          },
+          {
+            "event_reported__v": "Headache",
+            "outcome__v": "Fatal",
+            "serious__v": "Yes",
+            "country__v": "US",
+            "onset_idate__v": "1978-10-17"
+          }
+        ]
+      },
+      "structured": {
+        "narrative__v": "Glenn Alexander was prescribed Lisinopril for base and later developed rash along with other symptoms.",
+        "report_type__v": "Study",
+        "seriousness_criteria__v": "Life Threatening",
+        "receipt_method__v": "Web",
+        "transmission_type__v": "Initial"
+      }
+    }
+  }
+}

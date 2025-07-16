@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "source": "synthetic_generator",
+    "version": "1.0"
+  },
+  "data": {
+    "detail": {
+      "patient": {
+        "structured": {
+          "age_value__v": 17,
+          "weight_value__v": 55.5,
+          "gender_value__v": "Male"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Simvastatin",
+            "dose__v": "2 tablet(s) daily",
+            "indication__v": "else"
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "Dizziness",
+            "outcome__v": "Recovered",
+            "serious__v": "Yes",
+            "country__v": "AU",
+            "onset_idate__v": "2017-02-11"
+          },
+          {
+            "event_reported__v": "Rash",
+            "outcome__v": "Recovered",
+            "serious__v": "No",
+            "country__v": "US",
+            "onset_idate__v": "2002-09-17"
+          },
+          {
+            "event_reported__v": "Nausea",
+            "outcome__v": "Fatal",
+            "serious__v": "Yes",
+            "country__v": "US",
+            "onset_idate__v": "1995-06-05"
+          }
+        ]
+      },
+      "structured": {
+        "narrative__v": "Zachary Wilson was prescribed Simvastatin for eye and later developed dizziness along with other symptoms.",
+        "report_type__v": "Spontaneous",
+        "seriousness_criteria__v": "Life Threatening",
+        "receipt_method__v": "Email",
+        "transmission_type__v": "Initial"
+      }
+    }
+  }
+}

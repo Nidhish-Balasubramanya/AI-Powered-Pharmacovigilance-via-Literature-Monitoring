@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "source": "synthetic_generator",
+    "version": "1.0"
+  },
+  "data": {
+    "detail": {
+      "patient": {
+        "structured": {
+          "age_value__v": 9,
+          "weight_value__v": 61.0,
+          "gender_value__v": "Female"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Amoxicillin",
+            "dose__v": "2 tablet(s) daily",
+            "indication__v": "choose"
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "Rash",
+            "outcome__v": "Unknown",
+            "serious__v": "No",
+            "country__v": "AU",
+            "onset_idate__v": "2012-04-24"
+          },
+          {
+            "event_reported__v": "Fatigue",
+            "outcome__v": "Fatal",
+            "serious__v": "Yes",
+            "country__v": "CA",
+            "onset_idate__v": "2017-01-27"
+          }
+        ]
+      },
+      "structured": {
+        "narrative__v": "Donald Kim was prescribed Amoxicillin for message and later developed rash along with other symptoms.",
+        "report_type__v": "Literature",
+        "seriousness_criteria__v": "Hospitalization",
+        "receipt_method__v": "Phone",
+        "transmission_type__v": "Initial"
+      }
+    }
+  }
+}

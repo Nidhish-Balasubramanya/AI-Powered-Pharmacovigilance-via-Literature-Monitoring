@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "source": "synthetic_generator",
+    "version": "1.0"
+  },
+  "data": {
+    "detail": {
+      "patient": {
+        "structured": {
+          "age_value__v": 19,
+          "weight_value__v": 74.7,
+          "gender_value__v": "Male"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Simvastatin",
+            "dose__v": "2 tablet(s) daily",
+            "indication__v": "picture"
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "Anxiety",
+            "outcome__v": "Not Recovered",
+            "serious__v": "Yes",
+            "country__v": "AU",
+            "onset_idate__v": "1991-12-15"
+          }
+        ]
+      },
+      "structured": {
+        "narrative__v": "John Brady was prescribed Simvastatin for bag and later developed anxiety along with other symptoms.",
+        "report_type__v": "Literature",
+        "seriousness_criteria__v": "Death",
+        "receipt_method__v": "Email",
+        "transmission_type__v": "Initial"
+      }
+    }
+  }
+}

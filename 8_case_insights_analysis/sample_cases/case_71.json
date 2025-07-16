@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "source": "synthetic_generator",
+    "version": "1.0"
+  },
+  "data": {
+    "detail": {
+      "patient": {
+        "structured": {
+          "age_value__v": 18,
+          "weight_value__v": 79.1,
+          "gender_value__v": "Other"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Lisinopril",
+            "dose__v": "2 tablet(s) daily",
+            "indication__v": "practice"
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "Abdominal Pain",
+            "outcome__v": "Recovered",
+            "serious__v": "No",
+            "country__v": "IN",
+            "onset_idate__v": "2007-07-05"
+          }
+        ]
+      },
+      "structured": {
+        "narrative__v": "Joshua Smith was prescribed Lisinopril for wish and later developed abdominal pain along with other symptoms.",
+        "report_type__v": "Literature",
+        "seriousness_criteria__v": "Hospitalization",
+        "receipt_method__v": "Fax",
+        "transmission_type__v": "Initial"
+      }
+    }
+  }
+}

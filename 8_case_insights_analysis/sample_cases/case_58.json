@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "source": "synthetic_generator",
+    "version": "1.0"
+  },
+  "data": {
+    "detail": {
+      "patient": {
+        "structured": {
+          "age_value__v": 13,
+          "weight_value__v": 91.3,
+          "gender_value__v": "Male"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Atorvastatin",
+            "dose__v": "2 tablet(s) daily",
+            "indication__v": "former"
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "Fatigue",
+            "outcome__v": "Recovered",
+            "serious__v": "No",
+            "country__v": "DE",
+            "onset_idate__v": "2013-07-28"
+          }
+        ]
+      },
+      "structured": {
+        "narrative__v": "Timothy Wagner PhD was prescribed Atorvastatin for lot and later developed fatigue along with other symptoms.",
+        "report_type__v": "Literature",
+        "seriousness_criteria__v": "Life Threatening",
+        "receipt_method__v": "Web",
+        "transmission_type__v": "Initial"
+      }
+    }
+  }
+}

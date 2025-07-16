@@ -1,0 +1,70 @@
+{
+  "data": {
+    "detail": {
+      "structured": {
+        "narrative__v": "Patient is a 59-year-old female who was prescribed Atorvastatin for treatment. Reported symptoms include dizziness, blurred vision. Outcome was noted as recovered.",
+        "case_classification__v": "Spontaneous",
+        "serious__v": false,
+        "seriousness_criteria__v": [],
+        "report_type__v": "Initial",
+        "receive_datetime__v": "",
+        "receipt_method__v": "Email",
+        "transmission_type__v": "Electronic"
+      },
+      "patient": {
+        "structured": {
+          "age_value__v": "59",
+          "age_unit__v": "Years",
+          "gender_value__v": "Female",
+          "weight__v": "66",
+          "weight_unit__v": "kg",
+          "patient_identifier__v": "patient_037"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Atorvastatin",
+            "dose_text__v": "",
+            "firstadmin_idate__v": "",
+            "indication_text__v": "General",
+            "dose_unit__v": "mg",
+            "dose_number__v": 1
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "dizziness",
+            "country__v": "IN",
+            "onset_idate__v": "",
+            "serious__v": false,
+            "outcome__v": "Recovered"
+          },
+          {
+            "event_reported__v": "blurred vision",
+            "country__v": "IN",
+            "onset_idate__v": "",
+            "serious__v": false,
+            "outcome__v": "Recovered"
+          }
+        ]
+      },
+      "case_test_result__v": {
+        "structured": []
+      },
+      "case_contact__v": {
+        "structured": [],
+        "metadata": {}
+      },
+      "parental_case__v": {
+        "structured": []
+      },
+      "transmission__v": {
+        "structured": [],
+        "metadata": {}
+      }
+    }
+  }
+}
