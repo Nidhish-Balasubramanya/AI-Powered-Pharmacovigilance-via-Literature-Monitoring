@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "source": "synthetic_generator",
+    "version": "1.0"
+  },
+  "data": {
+    "detail": {
+      "patient": {
+        "structured": {
+          "age_value__v": 70,
+          "weight_value__v": 55.0,
+          "gender_value__v": "Female"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Simvastatin",
+            "dose__v": "1 tablet(s) daily",
+            "indication__v": "reflect"
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "Rash",
+            "outcome__v": "Unknown",
+            "serious__v": "Yes",
+            "country__v": "DE",
+            "onset_idate__v": "1984-02-22"
+          }
+        ]
+      },
+      "structured": {
+        "narrative__v": "Donna Smith was prescribed Simvastatin for crime and later developed rash along with other symptoms.",
+        "report_type__v": "Other",
+        "seriousness_criteria__v": "Death",
+        "receipt_method__v": "Fax",
+        "transmission_type__v": "Initial"
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "source": "synthetic_generator",
+    "version": "1.0"
+  },
+  "data": {
+    "detail": {
+      "patient": {
+        "structured": {
+          "age_value__v": 64,
+          "weight_value__v": 87.9,
+          "gender_value__v": "Male"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Atorvastatin",
+            "dose__v": "2 tablet(s) daily",
+            "indication__v": "culture"
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "Fatigue",
+            "outcome__v": "Recovered",
+            "serious__v": "Yes",
+            "country__v": "DE",
+            "onset_idate__v": "2003-12-26"
+          },
+          {
+            "event_reported__v": "Shortness of Breath",
+            "outcome__v": "Fatal",
+            "serious__v": "Yes",
+            "country__v": "GB",
+            "onset_idate__v": "1982-11-22"
+          },
+          {
+            "event_reported__v": "Blurred Vision",
+            "outcome__v": "Not Recovered",
+            "serious__v": "No",
+            "country__v": "FR",
+            "onset_idate__v": "1983-01-01"
+          }
+        ]
+      },
+      "structured": {
+        "narrative__v": "Miguel Palmer was prescribed Atorvastatin for resource and later developed fatigue along with other symptoms.",
+        "report_type__v": "Other",
+        "seriousness_criteria__v": "Death",
+        "receipt_method__v": "Email",
+        "transmission_type__v": "Initial"
+      }
+    }
+  }
+}

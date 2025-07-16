@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "source": "synthetic_generator",
+    "version": "1.0"
+  },
+  "data": {
+    "detail": {
+      "patient": {
+        "structured": {
+          "age_value__v": 90,
+          "weight_value__v": 61.9,
+          "gender_value__v": "Female"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Amlodipine",
+            "dose__v": "1 tablet(s) daily",
+            "indication__v": "foreign"
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "Anxiety",
+            "outcome__v": "Fatal",
+            "serious__v": "Yes",
+            "country__v": "FR",
+            "onset_idate__v": "2020-07-11"
+          }
+        ]
+      },
+      "structured": {
+        "narrative__v": "Charles Barnes was prescribed Amlodipine for area and later developed anxiety along with other symptoms.",
+        "report_type__v": "Other",
+        "seriousness_criteria__v": "Death",
+        "receipt_method__v": "Web",
+        "transmission_type__v": "Initial"
+      }
+    }
+  }
+}

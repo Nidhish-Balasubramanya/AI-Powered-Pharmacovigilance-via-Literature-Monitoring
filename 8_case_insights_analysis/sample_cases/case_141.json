@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "source": "synthetic_generator",
+    "version": "1.0"
+  },
+  "data": {
+    "detail": {
+      "patient": {
+        "structured": {
+          "age_value__v": 73,
+          "weight_value__v": 51.3,
+          "gender_value__v": "Other"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Simvastatin",
+            "dose__v": "2 tablet(s) daily",
+            "indication__v": "toward"
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "Anxiety",
+            "outcome__v": "Recovered",
+            "serious__v": "Yes",
+            "country__v": "FR",
+            "onset_idate__v": "1998-04-05"
+          },
+          {
+            "event_reported__v": "Anxiety",
+            "outcome__v": "Fatal",
+            "serious__v": "Yes",
+            "country__v": "AU",
+            "onset_idate__v": "1985-01-07"
+          },
+          {
+            "event_reported__v": "Fatigue",
+            "outcome__v": "Not Recovered",
+            "serious__v": "Yes",
+            "country__v": "AU",
+            "onset_idate__v": "2021-11-02"
+          }
+        ]
+      },
+      "structured": {
+        "narrative__v": "Nicolas Watts was prescribed Simvastatin for personal and later developed anxiety along with other symptoms.",
+        "report_type__v": "Literature",
+        "seriousness_criteria__v": "Other",
+        "receipt_method__v": "Fax",
+        "transmission_type__v": "Initial"
+      }
+    }
+  }
+}

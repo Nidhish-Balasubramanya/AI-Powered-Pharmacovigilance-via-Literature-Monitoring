@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "source": "synthetic_generator",
+    "version": "1.0"
+  },
+  "data": {
+    "detail": {
+      "patient": {
+        "structured": {
+          "age_value__v": 47,
+          "weight_value__v": 49.9,
+          "gender_value__v": "Female"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Omeprazole",
+            "dose__v": "2 tablet(s) daily",
+            "indication__v": "book"
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "Anxiety",
+            "outcome__v": "Fatal",
+            "serious__v": "No",
+            "country__v": "GB",
+            "onset_idate__v": "2001-05-31"
+          }
+        ]
+      },
+      "structured": {
+        "narrative__v": "Alice Palmer was prescribed Omeprazole for production and later developed anxiety along with other symptoms.",
+        "report_type__v": "Study",
+        "seriousness_criteria__v": "Disability",
+        "receipt_method__v": "Web",
+        "transmission_type__v": "Initial"
+      }
+    }
+  }
+}

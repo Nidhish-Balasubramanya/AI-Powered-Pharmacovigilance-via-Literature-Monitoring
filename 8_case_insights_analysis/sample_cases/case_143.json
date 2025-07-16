@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "source": "synthetic_generator",
+    "version": "1.0"
+  },
+  "data": {
+    "detail": {
+      "patient": {
+        "structured": {
+          "age_value__v": 66,
+          "weight_value__v": 81.8,
+          "gender_value__v": "Male"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Paracetamol",
+            "dose__v": "1 tablet(s) daily",
+            "indication__v": "shoulder"
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "Anxiety",
+            "outcome__v": "Fatal",
+            "serious__v": "No",
+            "country__v": "GB",
+            "onset_idate__v": "1985-05-21"
+          },
+          {
+            "event_reported__v": "Shortness of Breath",
+            "outcome__v": "Not Recovered",
+            "serious__v": "Yes",
+            "country__v": "AU",
+            "onset_idate__v": "2018-11-14"
+          }
+        ]
+      },
+      "structured": {
+        "narrative__v": "Jordan Thompson was prescribed Paracetamol for stand and later developed anxiety along with other symptoms.",
+        "report_type__v": "Other",
+        "seriousness_criteria__v": "Other",
+        "receipt_method__v": "Web",
+        "transmission_type__v": "Initial"
+      }
+    }
+  }
+}

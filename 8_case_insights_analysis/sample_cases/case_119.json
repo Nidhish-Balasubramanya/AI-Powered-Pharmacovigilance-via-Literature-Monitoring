@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "source": "synthetic_generator",
+    "version": "1.0"
+  },
+  "data": {
+    "detail": {
+      "patient": {
+        "structured": {
+          "age_value__v": 30,
+          "weight_value__v": 86.9,
+          "gender_value__v": "Other"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Amlodipine",
+            "dose__v": "2 tablet(s) daily",
+            "indication__v": "information"
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "Abdominal Pain",
+            "outcome__v": "Fatal",
+            "serious__v": "No",
+            "country__v": "FR",
+            "onset_idate__v": "2023-05-17"
+          }
+        ]
+      },
+      "structured": {
+        "narrative__v": "Ryan Fowler was prescribed Amlodipine for lawyer and later developed abdominal pain along with other symptoms.",
+        "report_type__v": "Other",
+        "seriousness_criteria__v": "Other",
+        "receipt_method__v": "Web",
+        "transmission_type__v": "Initial"
+      }
+    }
+  }
+}

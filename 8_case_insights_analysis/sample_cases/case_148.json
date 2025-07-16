@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "source": "synthetic_generator",
+    "version": "1.0"
+  },
+  "data": {
+    "detail": {
+      "patient": {
+        "structured": {
+          "age_value__v": 7,
+          "weight_value__v": 50.4,
+          "gender_value__v": "Other"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Simvastatin",
+            "dose__v": "1 tablet(s) daily",
+            "indication__v": "ten"
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "Abdominal Pain",
+            "outcome__v": "Fatal",
+            "serious__v": "No",
+            "country__v": "CA",
+            "onset_idate__v": "2001-04-24"
+          },
+          {
+            "event_reported__v": "Shortness of Breath",
+            "outcome__v": "Fatal",
+            "serious__v": "Yes",
+            "country__v": "CA",
+            "onset_idate__v": "2021-04-11"
+          }
+        ]
+      },
+      "structured": {
+        "narrative__v": "Dennis Walker was prescribed Simvastatin for possible and later developed abdominal pain along with other symptoms.",
+        "report_type__v": "Literature",
+        "seriousness_criteria__v": "Death",
+        "receipt_method__v": "Phone",
+        "transmission_type__v": "Initial"
+      }
+    }
+  }
+}

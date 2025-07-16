@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "source": "synthetic_generator",
+    "version": "1.0"
+  },
+  "data": {
+    "detail": {
+      "patient": {
+        "structured": {
+          "age_value__v": 63,
+          "weight_value__v": 68.8,
+          "gender_value__v": "Female"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Lisinopril",
+            "dose__v": "2 tablet(s) daily",
+            "indication__v": "up"
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "Fatigue",
+            "outcome__v": "Not Recovered",
+            "serious__v": "Yes",
+            "country__v": "GB",
+            "onset_idate__v": "1982-05-20"
+          },
+          {
+            "event_reported__v": "Blurred Vision",
+            "outcome__v": "Fatal",
+            "serious__v": "No",
+            "country__v": "CA",
+            "onset_idate__v": "2004-09-01"
+          }
+        ]
+      },
+      "structured": {
+        "narrative__v": "Samuel Evans was prescribed Lisinopril for father and later developed fatigue along with other symptoms.",
+        "report_type__v": "Literature",
+        "seriousness_criteria__v": "Other",
+        "receipt_method__v": "Fax",
+        "transmission_type__v": "Initial"
+      }
+    }
+  }
+}

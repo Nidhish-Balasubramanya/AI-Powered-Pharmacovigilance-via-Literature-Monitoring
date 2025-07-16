@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "source": "synthetic_generator",
+    "version": "1.0"
+  },
+  "data": {
+    "detail": {
+      "patient": {
+        "structured": {
+          "age_value__v": 16,
+          "weight_value__v": 76.8,
+          "gender_value__v": "Male"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Omeprazole",
+            "dose__v": "2 tablet(s) daily",
+            "indication__v": "hope"
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "Rash",
+            "outcome__v": "Fatal",
+            "serious__v": "Yes",
+            "country__v": "GB",
+            "onset_idate__v": "1983-08-01"
+          },
+          {
+            "event_reported__v": "Fatigue",
+            "outcome__v": "Fatal",
+            "serious__v": "No",
+            "country__v": "IN",
+            "onset_idate__v": "1988-04-05"
+          },
+          {
+            "event_reported__v": "Shortness of Breath",
+            "outcome__v": "Not Recovered",
+            "serious__v": "No",
+            "country__v": "US",
+            "onset_idate__v": "1976-03-05"
+          }
+        ]
+      },
+      "structured": {
+        "narrative__v": "Justin Hart was prescribed Omeprazole for church and later developed rash along with other symptoms.",
+        "report_type__v": "Literature",
+        "seriousness_criteria__v": "Other",
+        "receipt_method__v": "Phone",
+        "transmission_type__v": "Initial"
+      }
+    }
+  }
+}

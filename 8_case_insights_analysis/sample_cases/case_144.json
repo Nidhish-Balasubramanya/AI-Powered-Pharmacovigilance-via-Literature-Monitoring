@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "source": "synthetic_generator",
+    "version": "1.0"
+  },
+  "data": {
+    "detail": {
+      "patient": {
+        "structured": {
+          "age_value__v": 67,
+          "weight_value__v": 48.5,
+          "gender_value__v": "Other"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Amlodipine",
+            "dose__v": "2 tablet(s) daily",
+            "indication__v": "production"
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "Dizziness",
+            "outcome__v": "Unknown",
+            "serious__v": "No",
+            "country__v": "US",
+            "onset_idate__v": "1994-03-02"
+          },
+          {
+            "event_reported__v": "Dizziness",
+            "outcome__v": "Fatal",
+            "serious__v": "No",
+            "country__v": "US",
+            "onset_idate__v": "1995-07-21"
+          }
+        ]
+      },
+      "structured": {
+        "narrative__v": "Brenda Watts was prescribed Amlodipine for southern and later developed dizziness along with other symptoms.",
+        "report_type__v": "Other",
+        "seriousness_criteria__v": "Disability",
+        "receipt_method__v": "Email",
+        "transmission_type__v": "Initial"
+      }
+    }
+  }
+}

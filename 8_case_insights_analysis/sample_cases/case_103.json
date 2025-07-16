@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "source": "synthetic_generator",
+    "version": "1.0"
+  },
+  "data": {
+    "detail": {
+      "patient": {
+        "structured": {
+          "age_value__v": 57,
+          "weight_value__v": 95.4,
+          "gender_value__v": "Female"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Atorvastatin",
+            "dose__v": "1 tablet(s) daily",
+            "indication__v": "learn"
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "Fever",
+            "outcome__v": "Unknown",
+            "serious__v": "Yes",
+            "country__v": "IN",
+            "onset_idate__v": "2019-07-14"
+          }
+        ]
+      },
+      "structured": {
+        "narrative__v": "Darren Moore was prescribed Atorvastatin for seat and later developed fever along with other symptoms.",
+        "report_type__v": "Other",
+        "seriousness_criteria__v": "Life Threatening",
+        "receipt_method__v": "Web",
+        "transmission_type__v": "Initial"
+      }
+    }
+  }
+}

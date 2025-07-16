@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "source": "synthetic_generator",
+    "version": "1.0"
+  },
+  "data": {
+    "detail": {
+      "patient": {
+        "structured": {
+          "age_value__v": 64,
+          "weight_value__v": 57.4,
+          "gender_value__v": "Other"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Ibuprofen",
+            "dose__v": "1 tablet(s) daily",
+            "indication__v": "we"
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "Rash",
+            "outcome__v": "Recovered",
+            "serious__v": "No",
+            "country__v": "AU",
+            "onset_idate__v": "2020-11-20"
+          }
+        ]
+      },
+      "structured": {
+        "narrative__v": "Laura Kelley was prescribed Ibuprofen for fly and later developed rash along with other symptoms.",
+        "report_type__v": "Other",
+        "seriousness_criteria__v": "Hospitalization",
+        "receipt_method__v": "Fax",
+        "transmission_type__v": "Initial"
+      }
+    }
+  }
+}

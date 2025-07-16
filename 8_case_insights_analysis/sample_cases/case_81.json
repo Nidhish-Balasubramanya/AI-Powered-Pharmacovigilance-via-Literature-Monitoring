@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "source": "synthetic_generator",
+    "version": "1.0"
+  },
+  "data": {
+    "detail": {
+      "patient": {
+        "structured": {
+          "age_value__v": 32,
+          "weight_value__v": 42.6,
+          "gender_value__v": "Female"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Omeprazole",
+            "dose__v": "2 tablet(s) daily",
+            "indication__v": "company"
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "Fever",
+            "outcome__v": "Not Recovered",
+            "serious__v": "No",
+            "country__v": "AU",
+            "onset_idate__v": "2018-12-10"
+          },
+          {
+            "event_reported__v": "Fatigue",
+            "outcome__v": "Unknown",
+            "serious__v": "Yes",
+            "country__v": "DE",
+            "onset_idate__v": "1977-08-16"
+          },
+          {
+            "event_reported__v": "Anxiety",
+            "outcome__v": "Unknown",
+            "serious__v": "No",
+            "country__v": "CA",
+            "onset_idate__v": "1997-07-24"
+          }
+        ]
+      },
+      "structured": {
+        "narrative__v": "Kevin May was prescribed Omeprazole for population and later developed fever along with other symptoms.",
+        "report_type__v": "Literature",
+        "seriousness_criteria__v": "Other",
+        "receipt_method__v": "Fax",
+        "transmission_type__v": "Initial"
+      }
+    }
+  }
+}

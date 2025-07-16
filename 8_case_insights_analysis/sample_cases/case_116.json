@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "source": "synthetic_generator",
+    "version": "1.0"
+  },
+  "data": {
+    "detail": {
+      "patient": {
+        "structured": {
+          "age_value__v": 44,
+          "weight_value__v": 64.8,
+          "gender_value__v": "Male"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Paracetamol",
+            "dose__v": "1 tablet(s) daily",
+            "indication__v": "debate"
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "Dizziness",
+            "outcome__v": "Fatal",
+            "serious__v": "No",
+            "country__v": "AU",
+            "onset_idate__v": "2006-10-27"
+          },
+          {
+            "event_reported__v": "Shortness of Breath",
+            "outcome__v": "Fatal",
+            "serious__v": "Yes",
+            "country__v": "US",
+            "onset_idate__v": "1995-06-30"
+          }
+        ]
+      },
+      "structured": {
+        "narrative__v": "Dennis Coleman was prescribed Paracetamol for lose and later developed dizziness along with other symptoms.",
+        "report_type__v": "Other",
+        "seriousness_criteria__v": "Hospitalization",
+        "receipt_method__v": "Phone",
+        "transmission_type__v": "Initial"
+      }
+    }
+  }
+}

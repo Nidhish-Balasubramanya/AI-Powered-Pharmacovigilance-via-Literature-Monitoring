@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "source": "synthetic_generator",
+    "version": "1.0"
+  },
+  "data": {
+    "detail": {
+      "patient": {
+        "structured": {
+          "age_value__v": 90,
+          "weight_value__v": 61.7,
+          "gender_value__v": "Other"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Lisinopril",
+            "dose__v": "2 tablet(s) daily",
+            "indication__v": "sing"
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "Rash",
+            "outcome__v": "Not Recovered",
+            "serious__v": "No",
+            "country__v": "GB",
+            "onset_idate__v": "2001-03-20"
+          },
+          {
+            "event_reported__v": "Shortness of Breath",
+            "outcome__v": "Not Recovered",
+            "serious__v": "No",
+            "country__v": "GB",
+            "onset_idate__v": "2013-10-20"
+          }
+        ]
+      },
+      "structured": {
+        "narrative__v": "Kevin Gonzalez was prescribed Lisinopril for door and later developed rash along with other symptoms.",
+        "report_type__v": "Spontaneous",
+        "seriousness_criteria__v": "Disability",
+        "receipt_method__v": "Phone",
+        "transmission_type__v": "Initial"
+      }
+    }
+  }
+}

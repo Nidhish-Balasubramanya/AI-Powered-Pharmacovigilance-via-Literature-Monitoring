@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "source": "synthetic_generator",
+    "version": "1.0"
+  },
+  "data": {
+    "detail": {
+      "patient": {
+        "structured": {
+          "age_value__v": 19,
+          "weight_value__v": 47.6,
+          "gender_value__v": "Other"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Metformin",
+            "dose__v": "2 tablet(s) daily",
+            "indication__v": "everyone"
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "Nausea",
+            "outcome__v": "Fatal",
+            "serious__v": "No",
+            "country__v": "FR",
+            "onset_idate__v": "1972-07-19"
+          }
+        ]
+      },
+      "structured": {
+        "narrative__v": "Patricia Zimmerman was prescribed Metformin for leader and later developed nausea along with other symptoms.",
+        "report_type__v": "Study",
+        "seriousness_criteria__v": "Disability",
+        "receipt_method__v": "Web",
+        "transmission_type__v": "Initial"
+      }
+    }
+  }
+}

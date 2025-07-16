@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "source": "synthetic_generator",
+    "version": "1.0"
+  },
+  "data": {
+    "detail": {
+      "patient": {
+        "structured": {
+          "age_value__v": 13,
+          "weight_value__v": 91.1,
+          "gender_value__v": "Other"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Cetirizine",
+            "dose__v": "1 tablet(s) daily",
+            "indication__v": "food"
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "Shortness of Breath",
+            "outcome__v": "Not Recovered",
+            "serious__v": "Yes",
+            "country__v": "AU",
+            "onset_idate__v": "1980-08-17"
+          },
+          {
+            "event_reported__v": "Dizziness",
+            "outcome__v": "Fatal",
+            "serious__v": "Yes",
+            "country__v": "GB",
+            "onset_idate__v": "1997-12-12"
+          }
+        ]
+      },
+      "structured": {
+        "narrative__v": "Sabrina Walton was prescribed Cetirizine for break and later developed shortness of breath along with other symptoms.",
+        "report_type__v": "Study",
+        "seriousness_criteria__v": "Disability",
+        "receipt_method__v": "Phone",
+        "transmission_type__v": "Initial"
+      }
+    }
+  }
+}

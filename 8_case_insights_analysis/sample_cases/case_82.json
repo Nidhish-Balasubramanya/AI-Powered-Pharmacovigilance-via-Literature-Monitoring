@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "source": "synthetic_generator",
+    "version": "1.0"
+  },
+  "data": {
+    "detail": {
+      "patient": {
+        "structured": {
+          "age_value__v": 12,
+          "weight_value__v": 81.2,
+          "gender_value__v": "Male"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Amlodipine",
+            "dose__v": "2 tablet(s) daily",
+            "indication__v": "project"
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "Anxiety",
+            "outcome__v": "Not Recovered",
+            "serious__v": "Yes",
+            "country__v": "DE",
+            "onset_idate__v": "2025-07-07"
+          },
+          {
+            "event_reported__v": "Fever",
+            "outcome__v": "Unknown",
+            "serious__v": "Yes",
+            "country__v": "DE",
+            "onset_idate__v": "1992-09-29"
+          },
+          {
+            "event_reported__v": "Nausea",
+            "outcome__v": "Fatal",
+            "serious__v": "No",
+            "country__v": "CA",
+            "onset_idate__v": "1985-04-25"
+          }
+        ]
+      },
+      "structured": {
+        "narrative__v": "Victor Roach was prescribed Amlodipine for loss and later developed anxiety along with other symptoms.",
+        "report_type__v": "Literature",
+        "seriousness_criteria__v": "Life Threatening",
+        "receipt_method__v": "Email",
+        "transmission_type__v": "Initial"
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "source": "synthetic_generator",
+    "version": "1.0"
+  },
+  "data": {
+    "detail": {
+      "patient": {
+        "structured": {
+          "age_value__v": 34,
+          "weight_value__v": 64.3,
+          "gender_value__v": "Other"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Lisinopril",
+            "dose__v": "1 tablet(s) daily",
+            "indication__v": "speech"
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "Shortness of Breath",
+            "outcome__v": "Unknown",
+            "serious__v": "No",
+            "country__v": "US",
+            "onset_idate__v": "1983-05-17"
+          },
+          {
+            "event_reported__v": "Fatigue",
+            "outcome__v": "Unknown",
+            "serious__v": "Yes",
+            "country__v": "DE",
+            "onset_idate__v": "1983-01-29"
+          },
+          {
+            "event_reported__v": "Anxiety",
+            "outcome__v": "Recovered",
+            "serious__v": "No",
+            "country__v": "GB",
+            "onset_idate__v": "1998-08-19"
+          }
+        ]
+      },
+      "structured": {
+        "narrative__v": "Dawn Barnes was prescribed Lisinopril for mouth and later developed shortness of breath along with other symptoms.",
+        "report_type__v": "Other",
+        "seriousness_criteria__v": "Other",
+        "receipt_method__v": "Email",
+        "transmission_type__v": "Initial"
+      }
+    }
+  }
+}

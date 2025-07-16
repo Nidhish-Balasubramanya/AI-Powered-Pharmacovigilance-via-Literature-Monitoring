@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "source": "synthetic_generator",
+    "version": "1.0"
+  },
+  "data": {
+    "detail": {
+      "patient": {
+        "structured": {
+          "age_value__v": 85,
+          "weight_value__v": 69.3,
+          "gender_value__v": "Male"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Omeprazole",
+            "dose__v": "1 tablet(s) daily",
+            "indication__v": "choose"
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "Blurred Vision",
+            "outcome__v": "Not Recovered",
+            "serious__v": "Yes",
+            "country__v": "DE",
+            "onset_idate__v": "2020-05-30"
+          }
+        ]
+      },
+      "structured": {
+        "narrative__v": "Sherry Macdonald was prescribed Omeprazole for together and later developed blurred vision along with other symptoms.",
+        "report_type__v": "Literature",
+        "seriousness_criteria__v": "Other",
+        "receipt_method__v": "Phone",
+        "transmission_type__v": "Initial"
+      }
+    }
+  }
+}

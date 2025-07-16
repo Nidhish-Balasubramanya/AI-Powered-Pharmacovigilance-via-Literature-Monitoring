@@ -1,0 +1,51 @@
+{
+  "meta": {
+    "source": "synthetic_generator",
+    "version": "1.0"
+  },
+  "data": {
+    "detail": {
+      "patient": {
+        "structured": {
+          "age_value__v": 17,
+          "weight_value__v": 72.9,
+          "gender_value__v": "Female"
+        }
+      },
+      "case_product__v": {
+        "structured": [
+          {
+            "product_name__v": "Amoxicillin",
+            "dose__v": "2 tablet(s) daily",
+            "indication__v": "rate"
+          }
+        ]
+      },
+      "case_adverse_event__v": {
+        "structured": [
+          {
+            "event_reported__v": "Abdominal Pain",
+            "outcome__v": "Fatal",
+            "serious__v": "Yes",
+            "country__v": "IN",
+            "onset_idate__v": "1971-09-20"
+          },
+          {
+            "event_reported__v": "Shortness of Breath",
+            "outcome__v": "Recovered",
+            "serious__v": "Yes",
+            "country__v": "US",
+            "onset_idate__v": "2012-03-17"
+          }
+        ]
+      },
+      "structured": {
+        "narrative__v": "Christine Pierce was prescribed Amoxicillin for campaign and later developed abdominal pain along with other symptoms.",
+        "report_type__v": "Literature",
+        "seriousness_criteria__v": "Life Threatening",
+        "receipt_method__v": "Fax",
+        "transmission_type__v": "Initial"
+      }
+    }
+  }
+}
