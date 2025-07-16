@@ -11,6 +11,7 @@ The system combines traditional NLP, biomedical entity extraction, LLM-based sum
 - **AER Entity Extraction:** Extracts structured data like drug name, dosage, reaction, etc., using BioBERT/SciSpacy + rule-based pipelines.
 - **Vault-compliant JSON Generation:** Formats data into standard regulatory JSON schema for downstream use.
 - **Narrative Generation:** Uses Claude (via AWS Bedrock) to generate fluent case narratives from structured AER data.
+- **AER Insights Analyzer:** Enables users to upload multiple AER JSON case files and receive a dynamic, visual and textual insights of data.
 - **REST API Backend:** Exposes core functionalities through a FastAPI server with endpoints for file upload, JSON output, and feedback submission.
 - **Streamlit Frontend:** Interactive interface for uploading literature and viewing extracted reports in real time.
 - **Containerized Deployment:** Deployed with Docker, NGINX (HTTPS), and AWS EC2.
@@ -44,6 +45,12 @@ pharmacovigilance/
 │   ├── narrative_generator.py
 │   └── prompt_builder.py
 │
+├── case_insights_analysis/
+│   ├── __pycache__/
+│   ├── __init__.py
+│   ├── insights_api.py
+│   └── sample_cases/
+|
 ├── nginx/
 │   ├── certs/
 │   ├── Dockerfile
